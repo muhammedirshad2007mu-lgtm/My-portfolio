@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+}
+
+
+.Portfolio{
+    border: 2px solid cyan;
+    border-radius: 20px;
+    margin: 20px;
+}
+.logo1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.logo2{
+    color: cyan;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+nav a:hover{
+    color: red;
+    background-color: white;
+    border-radius: 30px;
+}
+.container1{
+    padding-left: 100px;
+    text-align: left;
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.container1 h3{
+    color: cyan;
+}
+.logo3{
+    color: white;
+    font-size: 38px;
+}
+.logo4{
+    color: cyan;
+    font-size: 38px;
+}
+.container1 h2{
+    color: cyan;
+}
+.container1 p{
+    width: 300px;
+    line-height: 1.6;
+    color: lightgray;
+}
+.btn1{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+.btn1:hover{
+    color: red;
+    background-color: white;
+}
+.btn2:hover{
+    color: black;
+    background-color: cyan;
+}
+.container1 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+    box-shadow: 2px 5px 20px cyan;
+}
+.container2{
+    padding-left: 100px;
+    background-color: white;
+}
+.container2 h2{
+    color: black;
+}
+.container2 p{
+    width: 300px;
+    line-height: 1.6;
+    padding-top: 60px;
+    color: gray;
+}
+.container3{
+    background-color: white;
+    color: gray;
+    padding-right: 500px;
+}
+.container3 h2{
+    color: black;
+}
+.about-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+}
+.container4 h2{
+    color: black;
+    width: 100%;
+}
+.project1 img{
+    width: 350px;
+    height: 200px;
+}
+.project2 img{
+    width: 350px;
+    height: 200px;
+}
+.project3 img{
+    width: 350px;
+    height: 200px;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.container5{
+    background-color: white;
+    padding-left: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.contact-intfo{
+    width: 35%;
+}
+.contact-form{
+    width: 65%;
+}
+.container5 button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.container5 button:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid black;
+}
